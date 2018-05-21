@@ -39,25 +39,25 @@ Linux に普通に入っているものとして、詳しい説明は省略す�
 PostGIS からデータを取り出して GeoJSON にするとともに tippecanoe 属性を付与し、tippecanoe で変換して mbtiles を得る。tileserver-gl でデータができていることを確認する。
 
 ### node の動作確認
-```bash
+```console
 $ node -v
 v9.9.0
 ```
 
 ### tileserver-gl-light の動作確認
-```bash
+```console
 $ tileserver-gl-light -v
 tileserver-gl-light v2.3.1
 ```
 
 ### tippecanoe の動作確認
-```bash
+```console
 $ tippecanoe -v
 tippecanoe v1.27.16
 ```
 
 ### git を使って pnd.js を clone する
-```bash
+```console
 $ git clone git@github.com:hfu/pnd.git
 Initialized empty Git repository in /home/fhidenori/pnd/.git/
 remote: Counting objects: 52, done.
@@ -68,7 +68,7 @@ Resolving deltas: 100% (29/29), done.
 ```
 
 ### npm モジュールをインストールする
-```bash
+```console
 $ cd pnd
 $ npm install
 added 166 packages from 81 contributors in 5.574s
